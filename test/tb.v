@@ -27,7 +27,7 @@ module tb ();
   wire VGND = 1'b0;
 `endif
 
-  top user_project (
+  tt_um_mikegoelzer_7segmentbyte user_project (
 
       // Include power ports for the Gate Level test:
 `ifdef GL_TEST
