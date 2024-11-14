@@ -1,4 +1,6 @@
 {
   "verilog.linting.linter": "verilator",
+  "verilog.linting.path": "verilator",
+  "verilog.linting.verilator.arguments": "-y src/ --lint-only",
   "verilog.formatting.verilogHDL.formatter": "verible-verilog-format"
 }
